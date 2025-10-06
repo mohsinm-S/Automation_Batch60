@@ -1,0 +1,17 @@
+package Test123;
+
+public class IfWithIF {
+
+	public static void main(String[] args) {
+		
+		int a=1;
+		int b=2;
+		
+		if(a<b)
+		{
+			System.out.println("If");
+		}
+			
+			
+	}
+}
