@@ -13,7 +13,8 @@ public class VowvelsConsonet {
 				char[] ch=name.toCharArray();
 		for(int i=0;i<ch.length;i++ ) {
 		
-		if(ch[i] >='a' && ch[i] <= 'z') {
+		//if(ch[i] >='a' && ch[i] <= 'z') {
+			if(Character.isAlphabetic(ch[i])) {
 			
 				if(ch[i]=='a'||ch[i]=='e'||ch[i]=='i'||ch[i]=='o'||ch[i]=='u') {
 					
